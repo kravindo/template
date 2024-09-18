@@ -9,7 +9,7 @@ export default function () {
             <div className="grid grid-cols-2 gap-3 border border-black p-3">
                 <div className="flex flex-col gap-3">
                     <span>No. Invoice</span>
-                    <span>Total Bayar</span>
+                    <span>Total Pesanan</span>
                     <span>Tanggal Pembatalan</span>
                 </div>
                 <div className="flex flex-col gap-3 font-semibold">
@@ -50,6 +50,14 @@ export default function () {
                     </tr>
                 </tfoot>
             </table>
+            <div className="flex flex-col gap-1">
+                <span className="font-semibold">Alamat Pengiriman</span>
+                <div className="flex flex-col text-sm">
+                    <span>Figan</span>
+                    <span>Perum graha bringin mas jalan selatan dalam 1 no 31 RT 10 RW 11, Ngaliyan Kota Semarang Jawa Tengah - 50187</span>
+                    <span>085641462576</span>
+                </div>
+            </div>
             <span>Terima kasih, <br /> Tim Kravindo</span>
         </Layout>
     )
