@@ -3,22 +3,22 @@ import Layout from "../../components/layout"
 export default function () {
     return (
         <Layout companyName="Kravindo" companyDomain="https://kravindo.com" companyEmail="hello@kravindo.com" customerEmail="talentafigan@gmail.com" companyLogo="https://kravindo.s3.ap-southeast-2.amazonaws.com/company/company.png?response-content-disposition=inline&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAoaDmFwLXNvdXRoZWFzdC0yIkcwRQIhAPVc7Xp2hNJ5cnvQYgM56CDyma3KgbASGFjawm9igU6NAiA7Sw4tU%2F7aPU8hMU7eY8AW4QQvXEb5E58Y3Mio76x3qSrkAghDEAAaDDQ2MzQ3MDk1Nzc3MCIM%2BY4pUxkM3AQh4t61KsEC3TVj%2FhEpMOW8QXCix04YHBIr3CtMtem%2BzHL%2FXb9f6mMa7PK566%2BBK6liogvpnM7xYy8djIqj7IdaAke6tmvJMuXesIPbBJbWL7%2BrysmTZnB7Q0Lbj50Ale0DTvxKs6TuhoyoGrip5RTW1qWyYzPdS3874K%2BOLmcqAyQ5hlwxPwCySv9s%2Fwb2Ic%2FhukLcpi3rEjGfWK7jE%2Buf2Y1WEipqaz14eu7SZOn%2FunFvNmHRFpjD58k6R85V9LBOT%2BNiQn2GesTKD5bA%2FnHLtlscd2TA2UvegGO8Q0antiNuLw4xJZq3YKSNhTigbi%2FQHfNGcSvt3Wm7sAYaxbAyS3Oy0mTAvgraS9kLiiWdWf1hAttHjoKZJtCq%2BAIgGiyEzWB3prlIhsURXrpeV3N3iZ4O8BvrdTbhbXzFx1NlUraoE1vJ9BzbMLzGqrcGOrMC5pBnAT7JYd29vjmPxLrqgbbRHymZciQR3InX7YP%2F3OCdRXa6zDbKOO4S0%2BNOFg4fPb6xFrcbeoXODpUqNKK3CU4nxiw5Lk01IyDf4WwX3haeCaQf%2F3BIedO8n7VeygDBh0x2jZ3HWE57oRK81euLztpf5t8ApiIEndKP%2FWN5437E6s%2BAy8msBWXmDizK1rz2HopgvwK4VosCa6ieqUem%2BDfpZ0A2F4fk%2FtHRbYYcLWV8GkuwkBDb7zhpYrpJ6OeB1mVZQ4l0076JiZb%2BzBBuC7OREE9RtUwRXXKAhI45QhQnop7nlCA%2F1aIPtzfSqE4jmx5bdgtYz1hVaQ70lOxvMgXyQqGs6TEg%2FThwiz9tSEAnwfl6tOX9rbSGq1ndxuxpieIfii8RmtD31ByBbe3v%2F3VsJA%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240918T095425Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAWX2IFSTFGIW6Z2FM%2F20240918%2Fap-southeast-2%2Fs3%2Faws4_request&X-Amz-Signature=2efacfce6af94cb27ef2e9c77035767e4dd6bc5604e231259462aac4b457bc21">
-            <span className="text-xl font-semibold">Pesanan INV1394303939 dalam pengiriman</span>
+            <span className="text-xl font-semibold">Pesanan INV1394303939 telah sampai</span>
             <span>Hai Figan</span>
-            <span>Dengan senang hati kami informasikan bahwa pesanan <span className="font-semibold">Air Jordan 1 Low</span> anda telah dikirim! Paket Anda kini sedang dalam perjalanan.</span>
+            <span>Dengan senang hati kami informasikan bahwa pesanan <span className="font-semibold">Air Jordan 1 Low</span> anda telah sampai!</span>
             <div className="grid grid-cols-2 gap-3 border border-black p-3">
                 <div className="flex flex-col gap-3">
                     <span>Jasa Pengiriman</span>
                     <span>Nomor Pelacakan</span>
-                    <span>Estimasi Pengiriman</span>
+                    <span>Tanggal Tiba</span>
                 </div>
                 <div className="flex flex-col gap-3 font-semibold">
                     <span>JNE (Regular)</span>
                     <span>0724622105802959</span>
-                    <span>1 - 2 Hari</span>
+                    <span>29-01-2024 10:30:00</span>
                 </div>
             </div>
-            <span className="text-sm italic leading-relaxed">Lacak pesanan anda di <span className="text-blue-700 cursor-pointer">Halaman pesanan</span> atau juga langsung melalui dengan dengan memasukkan nomor tracking.</span>
+            <span className="text-sm italic leading-relaxed">Pengembalian barang dapat dilakukan dalam waktu 30 hari sejak tanggal pengiriman pesanan cek <span className="text-blue-700">Syarat & Ketentuan</span>.</span>
             <table className="w-full border-collapse">
                 <thead>
                     <tr className="bg-gray-100">
@@ -58,6 +58,7 @@ export default function () {
                     <span>085641462576</span>
                 </div>
             </div>
+            <span>Terima kasih telah menggunakan Kravindo. Kami berharap dapat melayani Anda lagi di masa mendatang!</span>
             <span>Tim Support <br /> <span className="text-blue-700">Kravindo.com</span></span>
         </Layout>
     )

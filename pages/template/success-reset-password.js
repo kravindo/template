@@ -6,7 +6,7 @@ export default function () {
             <span className=" text-xl font-semibold">Kata Sandi Anda Telah Diatur Ulang</span>
             <span>Hai Figan</span>
             <span>Kata sandi Anda telah berhasil disetel ulang. Kini Anda dapat masuk menggunakan kata sandi baru Anda.</span>
-            <span>Terima kasih, <br/> Tim Kravindo</span>
+            <span>Tim Support <br /> <span className="text-blue-700">Kravindo.com</span></span>
         </Layout>
     )
 }

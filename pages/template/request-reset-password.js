@@ -7,7 +7,7 @@ export default function () {
             <span>Kami telah menerima permintaan untuk mereset kata sandi Anda. Untuk mengonfirmasi permintaan ini, silakan klik tombol di bawah ini:.</span>
             <button className="btn-primary">Reset Kata Sandi</button>
             <span>Jika Anda tidak mengajukan permintaan ini, abaikan email ini dan hubungi tim dukungan kami di <span className="text-blue-700">support@kravindo.com</span>.</span>
-            <span>Terima kasih, <br/> Tim Kravindo</span>
+            <span>Tim Support <br /> <span className="text-blue-700">Kravindo.com</span></span>
         </Layout>
     )
 }

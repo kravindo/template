@@ -11,7 +11,7 @@ export default function () {
             <hr/>
             <span>Jika Anda tidak dapat mengeklik tombol tersebut, Anda dapat menyalin link dibawah ini dan menempelkannya ke peramban web Anda.</span>
             <span className="text-blue-700 break-words underline text-sm">https://auth.kravindo.com/verify/b337e84de8752b27eda3a12363109e7eda3a12363109e7eda3a12363109e7eda3a12363109e7eda3a12363109e</span>
-            <span>Terima kasih, <br/> Tim Kravindo</span>
+            <span>Tim Support <br /> <span className="text-blue-700">Kravindo.com</span></span>
         </Layout>
     )
 }

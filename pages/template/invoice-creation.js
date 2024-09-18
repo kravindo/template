@@ -63,7 +63,7 @@ export default function () {
                     <span>085641462576</span>
                 </div>
             </div>
-            <span>Terima kasih, <br /> Tim Kravindo</span>
+            <span>Tim Support <br /> <span className="text-blue-700">Kravindo.com</span></span>
         </Layout>
     )
 }
