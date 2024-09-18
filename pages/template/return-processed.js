@@ -15,8 +15,9 @@ export default function () {
                     <span>085641462576</span>
                 </div>
             </div>
-            <span className="text-sm leading-relaxed italic">Harap simpan salinan nomor pelacakan pengiriman Anda untuk melakukan pengaturan pengiriman pengembalian.</span>
+            <span className="text-sm leading-relaxed italic">Harap simpan nomor pelacakan pengiriman untuk melakukan pengaturan pengiriman.</span>
             <button className="btn-primary">Atur Pengiriman</button>
+            <span>Kami akan melakukan peninjauan barang pengembalian & memproses pengembalian dana dalam 1 Hari Kerja Setelah menerima barang yang anda kirimkan.</span>
             <table className="w-full border-collapse">
                 <thead>
                     <tr className="bg-gray-100">
