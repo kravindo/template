@@ -18,7 +18,7 @@ export default function () {
                     <span>29-01-2024</span>
                 </div>
             </div>
-            <span className="text-xs italic leading-relaxed">Apabila Anda menerima email ini namun pembayaran telah Anda lakukan, mohon kirim bukti pembayaran ke <span className="text-blue-700 cursor-pointer">support@kravindo.com</span></span>
+            <span className="text-xs italic leading-relaxed">Apabila Anda menerima email ini namun pembayaran telah Anda lakukan, mohon kirim bukti pembayaran ke tim kami <span className="text-blue-700 cursor-pointer">support@kravindo.com</span></span>
             <table className="w-full border-collapse">
                 <thead>
                     <tr className="bg-gray-100">
