@@ -18,7 +18,7 @@ export default function () {
                     <span>Pengembalian Barang & Dana</span>
                 </div>
             </div>
-            <span className="text-sm italic leading-relaxed">Kami akan memberitahukan Anda mengenai perkembagan peninjauan dan memproses pengembalian Anda mengikuti <span className="text-blue-700 cursor-pointer">Syarat & Ketentuan</span>.</span>
+            <span>Kami akan memberitahukan Anda mengenai perkembagan peninjauan dan memproses pengembalian Anda mengikuti <span className="text-blue-700 text-blue-700 font-medium cursor-pointer">Syarat & Ketentuan</span>.</span>
             <table className="w-full border-collapse">
                 <thead>
                     <tr className="bg-gray-100">
@@ -46,8 +46,8 @@ export default function () {
                     </tr>
                 </tfoot>
             </table>
-            <span>Jika Anda memiliki pertanyaan atau memerlukan bantuan lebih lanjut, jangan ragu untuk menghubungi tim dukungan pelanggan kami di <span className="text-blue-700">support@kravindo.com</span>.</span>
-            <span>Tim Support <br /> <span className="text-blue-700">Kravindo.com</span></span>
+            
+            
         </Layout>
     )
 }

@@ -18,7 +18,7 @@ export default function () {
                     <span>29-01-2024</span>
                 </div>
             </div>
-            <span>Kami akan mengirimkan pemberitahuan mengenai konfirmasi pengiriman setelah pesanan Anda dikirim, yang akan menyertakan informasi pelacakan.</span>
+            <span>Kami akan mengirimkan pemberitahuan mengenai konfirmasi pengiriman yang akan menyertakan informasi pelacakan setelah pesanan Anda dikirim.</span>
             <table className="w-full border-collapse">
                 <thead>
                     <tr className="bg-gray-100">
@@ -58,7 +58,6 @@ export default function () {
                     <span>085641462576</span>
                 </div>
             </div>
-            <span>Tim Support <br /> <span className="text-blue-700">Kravindo.com</span></span>
         </Layout>
     )
 }

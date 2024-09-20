@@ -7,7 +7,7 @@ export default function () {
             <span>Kami telah menerima permintaan untuk mereset kata sandi Anda.</span>
             <span>Silakan klik tombol di bawah ini:</span>
             <button className="btn-primary">Reset Kata Sandi</button>
-            <span>Jika Anda tidak mengajukan permintaan ini, mohon abaikan email</span>
+            <span>Jika Anda tidak mengajukan permintaan ini, mohon abaikan email ini</span>
         </Layout>
     )
 }

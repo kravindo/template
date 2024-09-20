@@ -20,8 +20,8 @@ export default function () {
                 </div>
             </div>
             <span className="text-sm italic leading-relaxed">Durasi pengiriman dana berlangsung selama 1 Hari Kerja tergantung jenis bank.</span>
-            <span>Jika Anda memiliki pertanyaan atau memerlukan bantuan lebih lanjut, jangan ragu untuk menghubungi tim dukungan pelanggan kami di <span className="text-blue-700">support@kravindo.com</span>.</span>
-            <span>Tim Support <br /> <span className="text-blue-700">Kravindo.com</span></span>
+            
+            
         </Layout>
     )
 }

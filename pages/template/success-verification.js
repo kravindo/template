@@ -7,7 +7,7 @@ export default function () {
             <span>Akun Anda telah berhasil diaktifkan. Sekarang Anda dapat masuk dan mulai menjelajahi penawaran eksklusif kami.</span>
             <button className="btn-primary">Jelajahi Produk</button>
             <span>Terima kasih telah menggunakan Kravindo.</span>
-            <span>Tim Support <br /> <span className="text-blue-700">Kravindo.com</span></span>
+            
         </Layout>
     )
 }

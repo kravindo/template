@@ -20,7 +20,7 @@ export default function () {
                 </div>
             </div>
             <span>Jika Anda yakin mungkin terjadi kesalahpahaman, mohon berikan detail atau dokumentasi tambahan untuk mendukung permintaan pengembalian Anda dan mengirimkan ke tim dukungan pelanggan kami di <span className="text-blue-700">support@kravindo.com</span>.</span>
-            <span>Tim Support <br /> <span className="text-blue-700">Kravindo.com</span></span>
+            
         </Layout>
     )
 }
