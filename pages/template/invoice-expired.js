@@ -9,7 +9,7 @@ export default function () {
             <div className="grid grid-cols-2 gap-3 border border-black p-3">
                 <div className="flex flex-col gap-3">
                     <span>Nomor Pesanan</span>
-                    <span>Total Pesanan</span>
+                    <span>Total Tagihan</span>
                     <span>Tanggal Pembatalan</span>
                 </div>
                 <div className="flex flex-col gap-3 font-semibold">
@@ -18,7 +18,7 @@ export default function () {
                     <span>29-01-2024</span>
                 </div>
             </div>
-            <span className="text-sm italic leading-relaxed">Apabila Anda menerima email ini namun pembayaran telah Anda lakukan, mohon hubungi tim kami <span className="text-blue-700">support@kravindo.com</span> dengan melampirkan bukti pembayaran dan nomor pesanan.</span>
+            <span className="text-xs italic leading-relaxed">Apabila Anda menerima email ini namun pembayaran telah Anda lakukan, mohon kirim bukti pembayaran ke <span className="text-blue-700 cursor-pointer">support@kravindo.com</span></span>
             <table className="w-full border-collapse">
                 <thead>
                     <tr className="bg-gray-100">
@@ -58,7 +58,6 @@ export default function () {
                     <span>085641462576</span>
                 </div>
             </div>
-            <span>Tim Support <br /> <span className="text-blue-700">Kravindo.com</span></span>
         </Layout>
     )
 }
