@@ -6,7 +6,7 @@ export default function () {
             <span className="text-xl font-semibold">Permintaan Pengembalian Pesanan Telah Disetujui</span>
             <span>Hai Figan</span>
             <span>Dengan senang hati kami informasikan bahwa permintaan pengembalian pesanan <span className="font-semibold">Air Jordan 1 Low</span> Anda telah disetujui.</span>
-            <span>Mohon lakukan pengiriman pengembalian barang ke detail alamat tertera.</span>
+            <span>Mohon lakukan pengiriman pengembalian barang ke detail alamat berikut:</span>
             <div className="flex flex-col gap-1">
                 <span className="font-semibold">Alamat Pengembalian</span>
                 <div className="flex flex-col text-sm">
@@ -15,9 +15,8 @@ export default function () {
                     <span>085641462576</span>
                 </div>
             </div>
-            <span className="text-sm leading-relaxed italic">Harap simpan nomor pelacakan pengiriman untuk melakukan pengaturan pengiriman.</span>
             <button className="btn-primary">Atur Pengiriman</button>
-            <span>Kami akan melakukan peninjauan barang pengembalian & memproses pengembalian dana dalam 1 Hari Kerja Setelah menerima barang yang Anda kirimkan.</span>
+            <span>Kami akan melakukan peninjauan barang pengembalian & memproses pengembalian dana Anda. Cek <span className="text-blue-700 font-medium cursor-pointer">Syarat & Ketentuan</span></span>
             <table className="w-full border-collapse">
                 <thead>
                     <tr className="bg-gray-100">
@@ -45,8 +44,6 @@ export default function () {
                     </tr>
                 </tfoot>
             </table>
-            
-            
         </Layout>
     )
 }

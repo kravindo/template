@@ -6,7 +6,7 @@ export default function () {
             <span className="text-xl font-semibold">Permintaan Pengembalian Pesanan Berhasil</span>
             <span>Hai Figan</span>
             <span>Kami telah melakukan peninjauan terhadap pengembalian pesanan <span className="font-semibold">Air Jordan 1 Low</span> Anda di nomor pesanan <span className="font-semibold">105802959</span></span>
-            <span>Dengan senang hati kami memberitahukan bahwa permintaan pengembalian pesanan Anda <span className="font-semibold">Telah Berhasil</span>. Pengembalian Dana Sebesar <span className="font-semibold">Rp1.393.000</span> Anda sudah di transfer ke rekening:</span>
+            <span>Dengan senang hati kami memberitahukan bahwa permintaan pengembalian pesanan Anda <span className="font-semibold">Telah Berhasil</span>. Pengembalian Dana Sebesar <span className="font-semibold">Rp1.393.000</span> sudah di transfer ke rekening:</span>
             <div className="grid grid-cols-2 gap-3 border border-black p-3">
                 <div className="flex flex-col gap-3">
                     <span>Bank/E-Wallet</span>
