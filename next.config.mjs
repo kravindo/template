@@ -5,7 +5,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'kravindo.s3.ap-southeast-2.amazonaws.com',
+        hostname: 'kreativa-indonesia.s3.ap-southeast-2.amazonaws.com',
       },
     ],
   },
