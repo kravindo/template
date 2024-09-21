@@ -18,7 +18,7 @@ export default function () {
                     <span>Pengembalian Barang & Dana</span>
                 </div>
             </div>
-            <span>Kami akan memberitahukan Anda mengenai perkembagan peninjauan dan memproses pengembalian Anda mengikuti <span className="text-blue-700 text-blue-700 font-medium cursor-pointer">Syarat & Ketentuan</span>.</span>
+            <span>Kami akan memberitahukan Anda mengenai perkembagan peninjauan dan memproses pengembalian Anda mengikuti <span className="text-blue-700 font-medium cursor-pointer">Syarat & Ketentuan</span>.</span>
             <table className="w-full border-collapse">
                 <thead>
                     <tr className="bg-gray-100">
