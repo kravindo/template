@@ -3,24 +3,18 @@ import Layout from '../../components/layout';
 import { btnPrimary } from "../../components/styles"
 import { formatCurrency, formatDate } from "../../lib/utils"
 
-import { getMany, getOne, getXenditInvoice, getCore } from '@/lib/db';
+import { getXenditInvoice, getCore } from '@/lib/db';
 
 export default async function handler(req, res) {
     const invoiceID = req.query.invoice;
-    const accessLogID = req.query.accessLog
-    const companyID = req.query.company
 
-    if (!invoiceID || !accessLogID) {
+    if (!invoiceID) {
         return res.status(404).send(null)
     }
 
-
     try {
 
-        const invoice = await getCore("invoice/" + invoiceID, {
-            "x-company-id": companyID,
-            "x-access-id": accessLogID
-        })
+        const invoice = await getCore("invoice/" + invoiceID)
 
         if (!invoice) {
             return res.status(404).send(null)
