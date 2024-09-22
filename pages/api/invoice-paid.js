@@ -95,7 +95,7 @@ export default async function handler(req, res) {
                     </tbody>
                     <tfoot>
                         <tr style={{ backgroundColor: '#f3f4f6' }}>
-                            <td colSpan="2" style={{ padding: '0.9rem', textAlign: 'right', fontWeight: '600' }}>Biaya Pengiriman</td>
+                        <td colSpan="2" style={{ padding: '0.9rem', textAlign: 'right', fontWeight: '600' }}>Biaya Pengiriman ({invoice.shipment_service})</td>
                             <td style={{ padding: '0.9rem', textAlign: 'right' }}>{formatCurrency(invoice.shipment_fee)}</td>
                         </tr>
                         <tr style={{ backgroundColor: '#f3f4f6' }}>
