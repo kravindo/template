@@ -55,7 +55,7 @@ export default async function handler(req, res) {
 
         res.status(200).send(htmlTemplate);
     } catch (error) {
-        console.error('Error fetching data:', error);
+        
         res.status(500).send('Internal Server Error');
     }
 }
