@@ -49,7 +49,7 @@ export default async function handler(req, res) {
                             <td style={{ padding: '0.9rem' }}>
                                 <span style={{ display: 'block', marginBottom: '0.8rem' }}>Bank/E-Wallet</span>
                                 <span style={{ display: 'block', marginBottom: '0.8rem' }}>Atas Nama</span>
-                                <span style={{ display: 'block' }}>Nomor Rekening</span>
+                                <span style={{ display: 'block' }}>Nomor</span>
                             </td>
                             <td style={{ padding: '0.9rem', fontWeight: 600 }}>
                                 <span style={{ display: 'block', marginBottom: '0.8rem' }}>{orderReturn.refund_account_provider}</span>
